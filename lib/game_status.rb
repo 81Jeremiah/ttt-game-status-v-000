@@ -26,5 +26,5 @@ end
 
 def full?(board)
 board.all? {|full|
-full.position_taken(board,full)}
+full.position_taken(board,full[0])}
 end
