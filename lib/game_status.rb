@@ -27,4 +27,3 @@ end
 def full?(board)
 board.all? {|full|}
 end
-  
