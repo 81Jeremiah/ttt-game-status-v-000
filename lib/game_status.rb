@@ -18,6 +18,8 @@ WIN_COMBINATIONS = [
 def won?(board)
   board.find{
   WIN_COMBINATIONS[0] == WIN_COMBINATIONS[1] &&
-  WIN_COMBINATIONS[1] == WIN_COMBINATIONS[2]}
+  WIN_COMBINATIONS[1] == WIN_COMBINATIONS[2] &&
+  def position_taken?(board, WIN_COMBINATIONS[0])
+}
 
 end
