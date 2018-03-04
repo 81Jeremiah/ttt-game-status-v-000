@@ -36,3 +36,11 @@ end
 def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
+
+def winner?(board)
+  if won?(board).any{|x| x == "X"}
+  return "X"
+  else
+  return "O"
+  end
+end
