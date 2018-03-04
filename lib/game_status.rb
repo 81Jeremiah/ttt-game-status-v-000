@@ -26,5 +26,5 @@ end
 
 def full?(board)
 !board.any? {|empty| empty ==
-" " || ""} 
+" " || ""}
 end
