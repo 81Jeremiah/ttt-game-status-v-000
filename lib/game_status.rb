@@ -38,7 +38,7 @@ def over?(board)
 end
 
 def winner(board)
-  if winning == won?(board)
+  if won?(board) == ["x","x","x"]
   return "X"
   else
   return "O"
