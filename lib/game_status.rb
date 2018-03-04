@@ -16,8 +16,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.find{
-  board[0] == board[1] &&
-  board[1] == board[2]}
+  board.find{
+  WIN_COMBINATIONS[0] == WIN_COMBINATIONS[1] &&
+  WIN_COMBINATIONS[1] == WIN_COMBINATIONS[2]}
 
 end
