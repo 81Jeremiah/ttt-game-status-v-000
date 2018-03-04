@@ -16,6 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.select {|won| WIN_COMBINATIONS ? }
+  board.select {|won| WIN_COMBINATIONS }
   end
 end
