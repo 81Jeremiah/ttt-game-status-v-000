@@ -17,8 +17,8 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.find{ |win|
-  board[0] == board[1] &&
-  board[1] == board[2] &&
+  board[win],[0] == [win],[1] &&
+  board[win],[1] == [win],[2] &&
   position_taken?(board,WIN_COMBINATIONS[0])
 }
 
